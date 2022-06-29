@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<footer
+  className="containerFooter"
+>
+  <div>
+    <div>
+      <span>
+        © 2022 Sisar
+      </span>
+    </div>
+  </div>
+</footer>
+`;

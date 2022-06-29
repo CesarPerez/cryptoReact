@@ -1,0 +1,33 @@
+.add {
+  background: antiquewhite;
+  line-height: 2em;
+  padding: 1em;
+}
+
+.notes-container {
+  height: 90vh;
+  background: #f3f6f9;
+}
+
+.input-container {
+  display: flex;
+  padding: 2em;
+  justify-content: center;
+}
+
+.input-container input {
+  min-width: 50%;
+}
+
+.elems-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: flex-start;
+  padding: 3em;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  padding: 1em;
+}

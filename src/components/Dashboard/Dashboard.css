@@ -1,0 +1,15 @@
+.container-dashboard {
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #f3f6f9;
+  height: 82vh;
+}
+
+.desc-1 {
+  text-align: initial;
+}

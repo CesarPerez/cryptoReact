@@ -1,0 +1,16 @@
+.container {
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  background: #f3f6f9;
+  height: 82vh;
+  flex-wrap: wrap;
+}
+
+.container p {
+  width: 100px;
+  height: 100px;
+}

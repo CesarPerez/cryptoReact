@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  border-radius: 3px;
+  font-family: sans-serif;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.navbar ol {
+  display: flex;
+  padding: 1em;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar ol li a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#logout {
+  color: lightcoral;
+  cursor: pointer;
+}
+
+.header {
+  text-align: left;
+  margin-left: 2em;
+}
+
+.routes-container {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  list-style-type: none;
+  flex-basis: 0;
+  flex-grow: 5;
+  flex-wrap: wrap;
+  line-height: 2em;
+  margin: auto 8em;
+}
+
+.routes-container li {
+  min-width: 5em;
+}
+
+.brand {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-shadow: #ffffff 0 0 12px, #a91079 0 0 25px, #a91079 0 0 35px, #a91079 0 0 45px;
+  animation: neon 3s infinite alternate;
+  color: #fff;
+  min-width: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand a {
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes neon {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: #ffffff 0 0 12px, #a91079 0 0 25px, #a91079 0 0 35px, #a91079 0 0 45px;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .navbar {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+}

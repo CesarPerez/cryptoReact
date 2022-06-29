@@ -1,0 +1,10 @@
+.containerFooter {
+  left: 0;
+  bottom: 0px;
+  right: 0;
+  background-color: #efefef;
+  color: #898989;
+  line-height: 3em;
+  padding: 1em;
+  position: fixed;
+}

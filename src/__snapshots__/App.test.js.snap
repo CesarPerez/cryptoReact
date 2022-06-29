@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match the snapshot 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="navbar"
+  >
+    <h4
+      className="brand"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        CryptoTool
+      </a>
+    </h4>
+  </header>
+  <footer
+    className="containerFooter"
+  >
+    <div>
+      <div>
+        <span>
+          © 2022 Sisar
+        </span>
+      </div>
+    </div>
+  </footer>
+</div>
+`;
